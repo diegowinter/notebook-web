@@ -1,0 +1,93 @@
+.sideMenu {
+  width: 28%;
+  height: 100%;
+  background-color: #181818;
+  color: #fff;
+  padding: 20px;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Side menu Header ------------------*/
+.pageTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userName {
+  font-size: 18px;
+}
+
+.userImage {
+  width: 36px;
+  height: 36px;
+  background-color: cyan;
+  border-radius: 18px;
+}
+/* End side menu Header  --------------*/
+
+
+/* Menu options -----------------------*/
+.menuOptions {
+  margin: 20px 0px;
+}
+
+/* End menu options -------------------*/
+
+.recentSection {
+  padding-top: 8px;
+}
+
+.recentSectionTitle {
+  margin-bottom: 16px;
+}
+
+.recentItem {
+  background-color: #1e1e1e;
+  transition: background-color .4s;
+  margin: 5px 0px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recentItem:hover {
+  background-color: #303030;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings {
+  cursor: pointer;
+  color: #dddddd;
+  transition: color .4s;
+}
+
+.settings:hover {
+  color: #fff;
+}
+
+.settings span {
+  margin-left: 10px;
+}
+
+.hideSideMenu {
+  background-color: #1e1e1e;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color .4s;
+}
+
+.hideSideMenu:hover {
+  background-color: #303030;
+}
